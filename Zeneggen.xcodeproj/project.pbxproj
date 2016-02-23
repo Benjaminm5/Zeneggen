@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435BC8B01C7CA5C100030E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BC8AF1C7CA5C100030E88 /* AppDelegate.swift */; };
+		435BC8B21C7CA5C100030E88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BC8B11C7CA5C100030E88 /* ViewController.swift */; };
+		435BC8B51C7CA5C100030E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435BC8B31C7CA5C100030E88 /* Main.storyboard */; };
+		435BC8B81C7CA5C100030E88 /* Zeneggen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 435BC8B61C7CA5C100030E88 /* Zeneggen.xcdatamodeld */; };
+		435BC8BA1C7CA5C200030E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435BC8B91C7CA5C200030E88 /* Assets.xcassets */; };
+		435BC8BD1C7CA5C200030E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435BC8BB1C7CA5C200030E88 /* LaunchScreen.storyboard */; };
+		435BC8C81C7CA5C200030E88 /* ZeneggenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BC8C71C7CA5C200030E88 /* ZeneggenTests.swift */; };
+		435BC8D31C7CA5C200030E88 /* ZeneggenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BC8D21C7CA5C200030E88 /* ZeneggenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		435BC8C41C7CA5C200030E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435BC8A41C7CA5C100030E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435BC8AB1C7CA5C100030E88;
+			remoteInfo = Zeneggen;
+		};
+		435BC8CF1C7CA5C200030E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435BC8A41C7CA5C100030E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435BC8AB1C7CA5C100030E88;
+			remoteInfo = Zeneggen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		435BC8AC1C7CA5C100030E88 /* Zeneggen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeneggen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435BC8AF1C7CA5C100030E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		435BC8B11C7CA5C100030E88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		435BC8B41C7CA5C100030E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		435BC8B71C7CA5C100030E88 /* Zeneggen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zeneggen.xcdatamodel; sourceTree = "<group>"; };
+		435BC8B91C7CA5C200030E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		435BC8BC1C7CA5C200030E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		435BC8BE1C7CA5C200030E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435BC8C31C7CA5C200030E88 /* ZeneggenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeneggenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		435BC8C71C7CA5C200030E88 /* ZeneggenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeneggenTests.swift; sourceTree = "<group>"; };
+		435BC8C91C7CA5C200030E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435BC8CE1C7CA5C200030E88 /* ZeneggenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeneggenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		435BC8D21C7CA5C200030E88 /* ZeneggenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeneggenUITests.swift; sourceTree = "<group>"; };
+		435BC8D41C7CA5C200030E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435BC8A91C7CA5C100030E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BC8C01C7CA5C200030E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BC8CB1C7CA5C200030E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435BC8A31C7CA5C100030E88 = {
+			isa = PBXGroup;
+			children = (
+				435BC8AE1C7CA5C100030E88 /* Zeneggen */,
+				435BC8C61C7CA5C200030E88 /* ZeneggenTests */,
+				435BC8D11C7CA5C200030E88 /* ZeneggenUITests */,
+				435BC8AD1C7CA5C100030E88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435BC8AD1C7CA5C100030E88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435BC8AC1C7CA5C100030E88 /* Zeneggen.app */,
+				435BC8C31C7CA5C200030E88 /* ZeneggenTests.xctest */,
+				435BC8CE1C7CA5C200030E88 /* ZeneggenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435BC8AE1C7CA5C100030E88 /* Zeneggen */ = {
+			isa = PBXGroup;
+			children = (
+				435BC8AF1C7CA5C100030E88 /* AppDelegate.swift */,
+				435BC8B11C7CA5C100030E88 /* ViewController.swift */,
+				435BC8B31C7CA5C100030E88 /* Main.storyboard */,
+				435BC8B91C7CA5C200030E88 /* Assets.xcassets */,
+				435BC8BB1C7CA5C200030E88 /* LaunchScreen.storyboard */,
+				435BC8BE1C7CA5C200030E88 /* Info.plist */,
+				435BC8B61C7CA5C100030E88 /* Zeneggen.xcdatamodeld */,
+			);
+			path = Zeneggen;
+			sourceTree = "<group>";
+		};
+		435BC8C61C7CA5C200030E88 /* ZeneggenTests */ = {
+			isa = PBXGroup;
+			children = (
+				435BC8C71C7CA5C200030E88 /* ZeneggenTests.swift */,
+				435BC8C91C7CA5C200030E88 /* Info.plist */,
+			);
+			path = ZeneggenTests;
+			sourceTree = "<group>";
+		};
+		435BC8D11C7CA5C200030E88 /* ZeneggenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				435BC8D21C7CA5C200030E88 /* ZeneggenUITests.swift */,
+				435BC8D41C7CA5C200030E88 /* Info.plist */,
+			);
+			path = ZeneggenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435BC8AB1C7CA5C100030E88 /* Zeneggen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435BC8D71C7CA5C200030E88 /* Build configuration list for PBXNativeTarget "Zeneggen" */;
+			buildPhases = (
+				435BC8A81C7CA5C100030E88 /* Sources */,
+				435BC8A91C7CA5C100030E88 /* Frameworks */,
+				435BC8AA1C7CA5C100030E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zeneggen;
+			productName = Zeneggen;
+			productReference = 435BC8AC1C7CA5C100030E88 /* Zeneggen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		435BC8C21C7CA5C200030E88 /* ZeneggenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435BC8DA1C7CA5C200030E88 /* Build configuration list for PBXNativeTarget "ZeneggenTests" */;
+			buildPhases = (
+				435BC8BF1C7CA5C200030E88 /* Sources */,
+				435BC8C01C7CA5C200030E88 /* Frameworks */,
+				435BC8C11C7CA5C200030E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435BC8C51C7CA5C200030E88 /* PBXTargetDependency */,
+			);
+			name = ZeneggenTests;
+			productName = ZeneggenTests;
+			productReference = 435BC8C31C7CA5C200030E88 /* ZeneggenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		435BC8CD1C7CA5C200030E88 /* ZeneggenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435BC8DD1C7CA5C200030E88 /* Build configuration list for PBXNativeTarget "ZeneggenUITests" */;
+			buildPhases = (
+				435BC8CA1C7CA5C200030E88 /* Sources */,
+				435BC8CB1C7CA5C200030E88 /* Frameworks */,
+				435BC8CC1C7CA5C200030E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435BC8D01C7CA5C200030E88 /* PBXTargetDependency */,
+			);
+			name = ZeneggenUITests;
+			productName = ZeneggenUITests;
+			productReference = 435BC8CE1C7CA5C200030E88 /* ZeneggenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435BC8A41C7CA5C100030E88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Benjamin Pfammatter";
+				TargetAttributes = {
+					435BC8AB1C7CA5C100030E88 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					435BC8C21C7CA5C200030E88 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 435BC8AB1C7CA5C100030E88;
+					};
+					435BC8CD1C7CA5C200030E88 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 435BC8AB1C7CA5C100030E88;
+					};
+				};
+			};
+			buildConfigurationList = 435BC8A71C7CA5C100030E88 /* Build configuration list for PBXProject "Zeneggen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 435BC8A31C7CA5C100030E88;
+			productRefGroup = 435BC8AD1C7CA5C100030E88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				435BC8AB1C7CA5C100030E88 /* Zeneggen */,
+				435BC8C21C7CA5C200030E88 /* ZeneggenTests */,
+				435BC8CD1C7CA5C200030E88 /* ZeneggenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		435BC8AA1C7CA5C100030E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BC8BD1C7CA5C200030E88 /* LaunchScreen.storyboard in Resources */,
+				435BC8BA1C7CA5C200030E88 /* Assets.xcassets in Resources */,
+				435BC8B51C7CA5C100030E88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BC8C11C7CA5C200030E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BC8CC1C7CA5C200030E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435BC8A81C7CA5C100030E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BC8B21C7CA5C100030E88 /* ViewController.swift in Sources */,
+				435BC8B01C7CA5C100030E88 /* AppDelegate.swift in Sources */,
+				435BC8B81C7CA5C100030E88 /* Zeneggen.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BC8BF1C7CA5C200030E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BC8C81C7CA5C200030E88 /* ZeneggenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BC8CA1C7CA5C200030E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BC8D31C7CA5C200030E88 /* ZeneggenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		435BC8C51C7CA5C200030E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435BC8AB1C7CA5C100030E88 /* Zeneggen */;
+			targetProxy = 435BC8C41C7CA5C200030E88 /* PBXContainerItemProxy */;
+		};
+		435BC8D01C7CA5C200030E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435BC8AB1C7CA5C100030E88 /* Zeneggen */;
+			targetProxy = 435BC8CF1C7CA5C200030E88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		435BC8B31C7CA5C100030E88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435BC8B41C7CA5C100030E88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		435BC8BB1C7CA5C200030E88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435BC8BC1C7CA5C200030E88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		435BC8D51C7CA5C200030E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		435BC8D61C7CA5C200030E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		435BC8D81C7CA5C200030E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zeneggen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.Zeneggen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		435BC8D91C7CA5C200030E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zeneggen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.Zeneggen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		435BC8DB1C7CA5C200030E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZeneggenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.ZeneggenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zeneggen.app/Zeneggen";
+			};
+			name = Debug;
+		};
+		435BC8DC1C7CA5C200030E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZeneggenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.ZeneggenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zeneggen.app/Zeneggen";
+			};
+			name = Release;
+		};
+		435BC8DE1C7CA5C200030E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZeneggenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.ZeneggenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zeneggen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		435BC8DF1C7CA5C200030E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZeneggenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.ZeneggenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zeneggen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435BC8A71C7CA5C100030E88 /* Build configuration list for PBXProject "Zeneggen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435BC8D51C7CA5C200030E88 /* Debug */,
+				435BC8D61C7CA5C200030E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435BC8D71C7CA5C200030E88 /* Build configuration list for PBXNativeTarget "Zeneggen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435BC8D81C7CA5C200030E88 /* Debug */,
+				435BC8D91C7CA5C200030E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		435BC8DA1C7CA5C200030E88 /* Build configuration list for PBXNativeTarget "ZeneggenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435BC8DB1C7CA5C200030E88 /* Debug */,
+				435BC8DC1C7CA5C200030E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		435BC8DD1C7CA5C200030E88 /* Build configuration list for PBXNativeTarget "ZeneggenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435BC8DE1C7CA5C200030E88 /* Debug */,
+				435BC8DF1C7CA5C200030E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		435BC8B61C7CA5C100030E88 /* Zeneggen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				435BC8B71C7CA5C100030E88 /* Zeneggen.xcdatamodel */,
+			);
+			currentVersion = 435BC8B71C7CA5C100030E88 /* Zeneggen.xcdatamodel */;
+			path = Zeneggen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 435BC8A41C7CA5C100030E88 /* Project object */;
+}
