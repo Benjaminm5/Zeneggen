@@ -94,8 +94,6 @@ class secondMasterVC: UITableViewController {
         
         titles.removeAll()
         
-        
-        
         let query = (ref.child("menu").child("de").child("second").child(category)).queryOrderedByKey()
         query.observeSingleEvent(of: .value, with: { snapshot in
             
