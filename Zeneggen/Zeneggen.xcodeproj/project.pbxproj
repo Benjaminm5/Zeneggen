@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4324DED01CB431FC00B26BD5 /* mainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4324DECF1CB431FC00B26BD5 /* mainMenuVC.swift */; };
+		4324DED31CB5B60400B26BD5 /* secondMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4324DED21CB5B60400B26BD5 /* secondMenuVC.swift */; };
+		4324DED51CB5BFBB00B26BD5 /* aboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4324DED41CB5BFBB00B26BD5 /* aboutVC.swift */; };
+		4355A1931CB2E20700A5CA88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355A1921CB2E20700A5CA88 /* AppDelegate.swift */; };
+		4355A1951CB2E20700A5CA88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355A1941CB2E20700A5CA88 /* ViewController.swift */; };
+		4355A1981CB2E20700A5CA88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4355A1961CB2E20700A5CA88 /* Main.storyboard */; };
+		4355A19B1CB2E20700A5CA88 /* Zeneggen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4355A1991CB2E20700A5CA88 /* Zeneggen.xcdatamodeld */; };
+		4355A19D1CB2E20700A5CA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4355A19C1CB2E20700A5CA88 /* Assets.xcassets */; };
+		4355A1A01CB2E20700A5CA88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4355A19E1CB2E20700A5CA88 /* LaunchScreen.storyboard */; };
+		4355A1AB1CB2E20700A5CA88 /* ZeneggenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355A1AA1CB2E20700A5CA88 /* ZeneggenTests.swift */; };
+		4355A1B61CB2E20700A5CA88 /* ZeneggenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355A1B51CB2E20700A5CA88 /* ZeneggenUITests.swift */; };
+		43D9017E1CB7D71D00BC731F /* webVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D9017D1CB7D71D00BC731F /* webVC.swift */; };
+		5D42A9891153A4151EB47725 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF6A393DEBDAA917030342C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4355A1A71CB2E20700A5CA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4355A1871CB2E20700A5CA88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4355A18E1CB2E20700A5CA88;
+			remoteInfo = Zeneggen;
+		};
+		4355A1B21CB2E20700A5CA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4355A1871CB2E20700A5CA88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4355A18E1CB2E20700A5CA88;
+			remoteInfo = Zeneggen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BF6A393DEBDAA917030342C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4324DECC1CB2E33100B26BD5 /* Zeneggen-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zeneggen-Bridging-Header.h"; sourceTree = "<group>"; };
+		4324DECF1CB431FC00B26BD5 /* mainMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mainMenuVC.swift; path = ../mainMenuVC.swift; sourceTree = "<group>"; };
+		4324DED21CB5B60400B26BD5 /* secondMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = secondMenuVC.swift; path = ../secondMenuVC.swift; sourceTree = "<group>"; };
+		4324DED41CB5BFBB00B26BD5 /* aboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aboutVC.swift; path = ../aboutVC.swift; sourceTree = "<group>"; };
+		4355A18F1CB2E20700A5CA88 /* Zeneggen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeneggen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4355A1921CB2E20700A5CA88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4355A1941CB2E20700A5CA88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4355A1971CB2E20700A5CA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4355A19A1CB2E20700A5CA88 /* Zeneggen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zeneggen.xcdatamodel; sourceTree = "<group>"; };
+		4355A19C1CB2E20700A5CA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4355A19F1CB2E20700A5CA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4355A1A11CB2E20700A5CA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4355A1A61CB2E20700A5CA88 /* ZeneggenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeneggenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4355A1AA1CB2E20700A5CA88 /* ZeneggenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeneggenTests.swift; sourceTree = "<group>"; };
+		4355A1AC1CB2E20700A5CA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4355A1B11CB2E20700A5CA88 /* ZeneggenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeneggenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4355A1B51CB2E20700A5CA88 /* ZeneggenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeneggenUITests.swift; sourceTree = "<group>"; };
+		4355A1B71CB2E20700A5CA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D9017D1CB7D71D00BC731F /* webVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = webVC.swift; path = ../webVC.swift; sourceTree = "<group>"; };
+		C61445CAF721E84EB03A7BE1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C785190658D125834EE02AD2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4355A18C1CB2E20700A5CA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D42A9891153A4151EB47725 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4355A1A31CB2E20700A5CA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4355A1AE1CB2E20700A5CA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4324DED11CB4323500B26BD5 /* Zeneggen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Zeneggen;
+			sourceTree = "<group>";
+		};
+		4355A1861CB2E20700A5CA88 = {
+			isa = PBXGroup;
+			children = (
+				4355A1911CB2E20700A5CA88 /* Zeneggen */,
+				4355A1A91CB2E20700A5CA88 /* ZeneggenTests */,
+				4355A1B41CB2E20700A5CA88 /* ZeneggenUITests */,
+				4355A1901CB2E20700A5CA88 /* Products */,
+				AC98E21509E5AC15A470FC44 /* Pods */,
+				ABF2DB2271148BC074DFBB9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4355A1901CB2E20700A5CA88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4355A18F1CB2E20700A5CA88 /* Zeneggen.app */,
+				4355A1A61CB2E20700A5CA88 /* ZeneggenTests.xctest */,
+				4355A1B11CB2E20700A5CA88 /* ZeneggenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4355A1911CB2E20700A5CA88 /* Zeneggen */ = {
+			isa = PBXGroup;
+			children = (
+				4324DECF1CB431FC00B26BD5 /* mainMenuVC.swift */,
+				4324DED21CB5B60400B26BD5 /* secondMenuVC.swift */,
+				4324DED41CB5BFBB00B26BD5 /* aboutVC.swift */,
+				43D9017D1CB7D71D00BC731F /* webVC.swift */,
+				4324DED11CB4323500B26BD5 /* Zeneggen */,
+				4355A1921CB2E20700A5CA88 /* AppDelegate.swift */,
+				4355A1941CB2E20700A5CA88 /* ViewController.swift */,
+				4355A1961CB2E20700A5CA88 /* Main.storyboard */,
+				4355A19C1CB2E20700A5CA88 /* Assets.xcassets */,
+				4355A19E1CB2E20700A5CA88 /* LaunchScreen.storyboard */,
+				4355A1A11CB2E20700A5CA88 /* Info.plist */,
+				4355A1991CB2E20700A5CA88 /* Zeneggen.xcdatamodeld */,
+				4324DECC1CB2E33100B26BD5 /* Zeneggen-Bridging-Header.h */,
+			);
+			path = Zeneggen;
+			sourceTree = "<group>";
+		};
+		4355A1A91CB2E20700A5CA88 /* ZeneggenTests */ = {
+			isa = PBXGroup;
+			children = (
+				4355A1AA1CB2E20700A5CA88 /* ZeneggenTests.swift */,
+				4355A1AC1CB2E20700A5CA88 /* Info.plist */,
+			);
+			path = ZeneggenTests;
+			sourceTree = "<group>";
+		};
+		4355A1B41CB2E20700A5CA88 /* ZeneggenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4355A1B51CB2E20700A5CA88 /* ZeneggenUITests.swift */,
+				4355A1B71CB2E20700A5CA88 /* Info.plist */,
+			);
+			path = ZeneggenUITests;
+			sourceTree = "<group>";
+		};
+		ABF2DB2271148BC074DFBB9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BF6A393DEBDAA917030342C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC98E21509E5AC15A470FC44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C785190658D125834EE02AD2 /* Pods.debug.xcconfig */,
+				C61445CAF721E84EB03A7BE1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4355A18E1CB2E20700A5CA88 /* Zeneggen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4355A1BA1CB2E20700A5CA88 /* Build configuration list for PBXNativeTarget "Zeneggen" */;
+			buildPhases = (
+				BC1674A83F4639B170C5ADE4 /* Check Pods Manifest.lock */,
+				4355A18B1CB2E20700A5CA88 /* Sources */,
+				4355A18C1CB2E20700A5CA88 /* Frameworks */,
+				4355A18D1CB2E20700A5CA88 /* Resources */,
+				AF0F6338092044D7BE0D2374 /* Embed Pods Frameworks */,
+				37ABAED7C723549FDADE931B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zeneggen;
+			productName = Zeneggen;
+			productReference = 4355A18F1CB2E20700A5CA88 /* Zeneggen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4355A1A51CB2E20700A5CA88 /* ZeneggenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4355A1BD1CB2E20700A5CA88 /* Build configuration list for PBXNativeTarget "ZeneggenTests" */;
+			buildPhases = (
+				4355A1A21CB2E20700A5CA88 /* Sources */,
+				4355A1A31CB2E20700A5CA88 /* Frameworks */,
+				4355A1A41CB2E20700A5CA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4355A1A81CB2E20700A5CA88 /* PBXTargetDependency */,
+			);
+			name = ZeneggenTests;
+			productName = ZeneggenTests;
+			productReference = 4355A1A61CB2E20700A5CA88 /* ZeneggenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4355A1B01CB2E20700A5CA88 /* ZeneggenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4355A1C01CB2E20700A5CA88 /* Build configuration list for PBXNativeTarget "ZeneggenUITests" */;
+			buildPhases = (
+				4355A1AD1CB2E20700A5CA88 /* Sources */,
+				4355A1AE1CB2E20700A5CA88 /* Frameworks */,
+				4355A1AF1CB2E20700A5CA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4355A1B31CB2E20700A5CA88 /* PBXTargetDependency */,
+			);
+			name = ZeneggenUITests;
+			productName = ZeneggenUITests;
+			productReference = 4355A1B11CB2E20700A5CA88 /* ZeneggenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4355A1871CB2E20700A5CA88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Benjamin Pfammatter";
+				TargetAttributes = {
+					4355A18E1CB2E20700A5CA88 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4355A1A51CB2E20700A5CA88 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4355A18E1CB2E20700A5CA88;
+					};
+					4355A1B01CB2E20700A5CA88 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4355A18E1CB2E20700A5CA88;
+					};
+				};
+			};
+			buildConfigurationList = 4355A18A1CB2E20700A5CA88 /* Build configuration list for PBXProject "Zeneggen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4355A1861CB2E20700A5CA88;
+			productRefGroup = 4355A1901CB2E20700A5CA88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4355A18E1CB2E20700A5CA88 /* Zeneggen */,
+				4355A1A51CB2E20700A5CA88 /* ZeneggenTests */,
+				4355A1B01CB2E20700A5CA88 /* ZeneggenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4355A18D1CB2E20700A5CA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4355A1A01CB2E20700A5CA88 /* LaunchScreen.storyboard in Resources */,
+				4355A19D1CB2E20700A5CA88 /* Assets.xcassets in Resources */,
+				4355A1981CB2E20700A5CA88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4355A1A41CB2E20700A5CA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4355A1AF1CB2E20700A5CA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37ABAED7C723549FDADE931B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0F6338092044D7BE0D2374 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC1674A83F4639B170C5ADE4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4355A18B1CB2E20700A5CA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4355A1951CB2E20700A5CA88 /* ViewController.swift in Sources */,
+				4355A1931CB2E20700A5CA88 /* AppDelegate.swift in Sources */,
+				4324DED31CB5B60400B26BD5 /* secondMenuVC.swift in Sources */,
+				4324DED01CB431FC00B26BD5 /* mainMenuVC.swift in Sources */,
+				43D9017E1CB7D71D00BC731F /* webVC.swift in Sources */,
+				4324DED51CB5BFBB00B26BD5 /* aboutVC.swift in Sources */,
+				4355A19B1CB2E20700A5CA88 /* Zeneggen.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4355A1A21CB2E20700A5CA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4355A1AB1CB2E20700A5CA88 /* ZeneggenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4355A1AD1CB2E20700A5CA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4355A1B61CB2E20700A5CA88 /* ZeneggenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4355A1A81CB2E20700A5CA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4355A18E1CB2E20700A5CA88 /* Zeneggen */;
+			targetProxy = 4355A1A71CB2E20700A5CA88 /* PBXContainerItemProxy */;
+		};
+		4355A1B31CB2E20700A5CA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4355A18E1CB2E20700A5CA88 /* Zeneggen */;
+			targetProxy = 4355A1B21CB2E20700A5CA88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4355A1961CB2E20700A5CA88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4355A1971CB2E20700A5CA88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4355A19E1CB2E20700A5CA88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4355A19F1CB2E20700A5CA88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4355A1B81CB2E20700A5CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4355A1B91CB2E20700A5CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4355A1BB1CB2E20700A5CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C785190658D125834EE02AD2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Zeneggen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.Zeneggen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zeneggen/Zeneggen-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4355A1BC1CB2E20700A5CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61445CAF721E84EB03A7BE1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Zeneggen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.Zeneggen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zeneggen/Zeneggen-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		4355A1BE1CB2E20700A5CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZeneggenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.ZeneggenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zeneggen.app/Zeneggen";
+			};
+			name = Debug;
+		};
+		4355A1BF1CB2E20700A5CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZeneggenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.ZeneggenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zeneggen.app/Zeneggen";
+			};
+			name = Release;
+		};
+		4355A1C11CB2E20700A5CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZeneggenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.ZeneggenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zeneggen;
+			};
+			name = Debug;
+		};
+		4355A1C21CB2E20700A5CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZeneggenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.benjaminpfammatter.ZeneggenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zeneggen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4355A18A1CB2E20700A5CA88 /* Build configuration list for PBXProject "Zeneggen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4355A1B81CB2E20700A5CA88 /* Debug */,
+				4355A1B91CB2E20700A5CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4355A1BA1CB2E20700A5CA88 /* Build configuration list for PBXNativeTarget "Zeneggen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4355A1BB1CB2E20700A5CA88 /* Debug */,
+				4355A1BC1CB2E20700A5CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4355A1BD1CB2E20700A5CA88 /* Build configuration list for PBXNativeTarget "ZeneggenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4355A1BE1CB2E20700A5CA88 /* Debug */,
+				4355A1BF1CB2E20700A5CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4355A1C01CB2E20700A5CA88 /* Build configuration list for PBXNativeTarget "ZeneggenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4355A1C11CB2E20700A5CA88 /* Debug */,
+				4355A1C21CB2E20700A5CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4355A1991CB2E20700A5CA88 /* Zeneggen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4355A19A1CB2E20700A5CA88 /* Zeneggen.xcdatamodel */,
+			);
+			currentVersion = 4355A19A1CB2E20700A5CA88 /* Zeneggen.xcdatamodel */;
+			path = Zeneggen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4355A1871CB2E20700A5CA88 /* Project object */;
+}
