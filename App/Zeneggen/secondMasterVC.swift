@@ -15,6 +15,8 @@ class secondMasterVC: UITableViewController {
     var selectedRow = ""
     var category = ""
     
+    var activityIndicator = activityIndicatorV()
+    
     var ref: FIRDatabaseReference!
     
     var zeneggenTitles = ["Anreise", "Karten", "Geschichte", "Gemeinde", "Pfarrei", "Transport"]
@@ -40,6 +42,11 @@ class secondMasterVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.navigationBar.barTintColor = mainColor
+        self.navigationController?.navigationBar.tintColor = secondaryBlackOnWhiteBackground
+        
+        startActivityIndicator()
         
         headerView.alpha = 0
         headerView.backgroundColor = secondaryColor
@@ -92,7 +99,32 @@ class secondMasterVC: UITableViewController {
     
     func loadTitles() {
         
-        titles.removeAll()
+        let titlesKey = "titles-second-\(self.category)"
+        let seguesKey = "segues-second-\(self.category)"
+        
+        //Get Array to know if we have to update it or not
+        let titlesUD = UserDefaults.standard.array(forKey: titlesKey)
+        let seguesUD = UserDefaults.standard.array(forKey: seguesKey)
+        
+        print("BEN: \(titlesUD)")
+        print("BEN: \(seguesUD)")
+        
+        var activityIndicatorStopped = false
+        
+        if titlesUD != nil && seguesUD != nil {
+            
+            self.titles = titlesUD as! [String]
+            self.segues = seguesUD as! [String]
+            
+            self.tableView.reloadData()
+            
+            stopActivityIndicator()
+            activityIndicatorStopped = true
+            
+        }
+        
+        var temporaryTitles = [String]()
+        var temporarySegues = [String]()
         
         let query = (ref.child("menu").child("de").child("second").child(category)).queryOrderedByKey()
         query.observeSingleEvent(of: .value, with: { snapshot in
@@ -105,16 +137,40 @@ class secondMasterVC: UITableViewController {
                 
                 if released {
                     
-                    self.titles.append(data["value"]! as! String)
-                    self.segues.append(data["segue"]! as! String)
+                    temporaryTitles.append(data["value"]! as! String)
+                    temporarySegues.append(data["segue"]! as! String)
                     
                 }
                 
             }
             
+            if self.titles != temporaryTitles {
+                
+                //Update User Defaults
+                UserDefaults.standard.set(temporaryTitles, forKey: titlesKey)
+                self.titles = temporaryTitles
+                
+            }
+            
+            if self.segues != temporarySegues {
+                
+                //Update User Defaults
+                UserDefaults.standard.set(temporarySegues, forKey: seguesKey)
+                self.segues = temporarySegues
+                
+            }
+            
             self.tableView.reloadData()
             
+            if !activityIndicatorStopped {
+                
+                self.stopActivityIndicator()
+                
+            }
+            
         }) { (error) in
+            
+            print("BEN: ERRRRRRRORRRRRR")
             
             self.headerLabel.text = "Internet-Verbindung notwendig!"
             self.headerView.alpha = 1
@@ -160,7 +216,7 @@ class secondMasterVC: UITableViewController {
             controller.viewCategory = object
             //controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
             //controller.navigationItem.leftItemsSupplementBackButton = true
-            
+        
         //} else if segue.identifier == "login" {
             
             //let object = selectedRow
@@ -200,19 +256,27 @@ class secondMasterVC: UITableViewController {
         
         let cell = tableView.cellForRow(at: indexPath)! as UITableViewCell
         
-        if segues[indexPath.row] == "mapWithDirection" {
+        if cell.textLabel?.text == "Notfall" {
             
-            if cell.textLabel?.text == "Anreise" {
-                
-                let universalMethods = externUniversalMethods()
-                universalMethods.goToMapWithDirections(lat: 46.273299, lon: 7.866678, title: "Zeneggen, Dorfzentrum")
-                
-            }
+            performSegue(withIdentifier: "NOTFALL", sender: self)
             
         } else {
             
-            self.selectedRow = (cell.textLabel?.text)!
-            performSegue(withIdentifier: segues[indexPath.row], sender: self)
+            if segues[indexPath.row] == "mapWithDirection" {
+                
+                if cell.textLabel?.text == "Anreise" {
+                    
+                    let universalMethods = externUniversalMethods()
+                    universalMethods.goToMapWithDirections(lat: 46.273299, lon: 7.866678, title: "Zeneggen, Dorfzentrum")
+                    
+                }
+                
+            } else {
+                
+                self.selectedRow = (cell.textLabel?.text)!
+                performSegue(withIdentifier: segues[indexPath.row], sender: self)
+                
+            }
             
         }
         /*
@@ -285,6 +349,23 @@ class secondMasterVC: UITableViewController {
             
         }
         */
+    }
+    
+    // MARK: - Activity Indicator
+    func startActivityIndicator() {
+        
+        view.addSubview(activityIndicator)
+        //UIApplication.shared.beginIgnoringInteractionEvents()
+        
+    }
+    
+    func stopActivityIndicator() {
+        
+        //End Activity Indicator
+        self.activityIndicator.stopAnimating()
+        //UIApplication.shared.endIgnoringInteractionEvents()
+        self.activityIndicator.removeViews()
+        
     }
     
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
